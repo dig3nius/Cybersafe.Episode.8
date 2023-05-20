@@ -6,11 +6,13 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/cybersafeepisodeeighticon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.CybersafeEpisode8"
         tools:targetApi="31">
+        <meta-data android:name="applovin.sdk.key"
+            android:value="cUBPbBvJgJIUPnD-ks1VlDGpkqqT8NqkhOzO9F930PBRJDy1ClobyhTIXT0obxFKwdTqt7KBo_CmLMif3A9ki5"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -21,5 +21,12 @@
         android:id="@+id/episodeeightbutton"
         android:text="Next Tip"/>
 
-
+    <com.applovin.mediation.ads.MaxAdView
+        xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        maxads:adUnitId="666ec1401e46498f"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:id="@+id/episodeeightadview"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 </LinearLayout>
